@@ -1,4 +1,8 @@
+layout: page
+title: "Blog Post 1"
+permalink: sagnikchand.SNABlog.git.io
 ```md
+
 # Title: Deciphering Communication Patterns: A Dive into the Wikipedia User Talk Page Network
 
 ## Introduction:
