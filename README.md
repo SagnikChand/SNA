@@ -1,37 +1,33 @@
-```markdown
-# Social Network Analysis Blog
 
-Welcome to my Social Network Analysis Blog repository! Here, I share insightful articles, tutorials, and resources related to social network analysis.
 
-## About
+<!--
+  <<< Author notes: Step 2 >>>
+  Start this step by acknowledging the previous step.
+  Define terms and link to docs.github.com.
+  Historic note: previous version checked for empty pull request, changed to the correct theme `minima`.
+-->
 
-Social network analysis (SNA) is a fascinating field that explores the structure, behavior, and dynamics of social networks. In this blog, I delve into various aspects of SNA, including:
+## Step 2: Configure your site
 
-- Introduction to network theory and concepts
-- Practical guides on network analysis using Python, R, and other tools
-- Case studies and applications of SNA in different domains
-- Latest research trends and developments in the field
+_You turned on GitHub Pages! :tada:_
 
-## Articles
+We'll work in a branch, `my-pages`, that I created for you to get this site looking great. :sparkle:
 
-Check out some of the featured articles on the blog:
+Jekyll uses a file titled `_config.yml` to store settings for your site, your theme, and reusable content like your site title and GitHub handle. You can check out the `_config.yml` file on the **Code** tab of your repository.
 
-- [Understanding Network Centrality Measures](articles/understanding-network-centrality.md)
-- [Detecting Communities in Networks](articles/detecting-communities.md)
-- [Visualizing Social Networks with NetworkX](articles/visualizing-networkx.md)
+We need to use a blog-ready theme. For this activity, we will use a theme named "minima".
 
-## Resources
+### :keyboard: Activity: Configure your site
 
-Explore useful resources and tools for social network analysis:
+1. Browse to the `_config.yml` file in the `my-pages` branch.
+1. In the upper right corner, open the file editor.
+1. Add a `theme:` set to **minima** so it shows in the `_config.yml` file as below:
+   ```yml
+   theme: minima
+   ```
+1. (optional) You can modify the other configuration variables such as `title:`, `author:`, and `description:` to further customize your site.
+1. Commit your changes.
+1. (optional) Create a pull request to view all the changes you'll make throughout this course. Click the **Pull Requests** tab, click **New pull request**, set `base: main` and `compare:my-pages`.
+1. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
 
-- [NetworkX](https://networkx.org/): Python library for creating, manipulating, and studying the structure, dynamics, and functions of complex networks.
-- [Gephi](https://gephi.org/): Open-source software for visualizing and exploring networks.
-- [igraph](https://igraph.org/): R package for network analysis and visualization.
 
-## Feedback and Contributions
-
-I appreciate feedback and contributions from the community! If you have any suggestions, questions, or would like to contribute to the blog, feel free to [contact me](lesagnik@gmail.com) or open an issue/pull request.
-
-Happy reading and happy analyzing!
-
-```
